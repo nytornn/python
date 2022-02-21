@@ -59,5 +59,4 @@ while True:
             print("Pocitac: ", pocitacVyhra, "vyher!")
             print("Hrac: ", hracVyhra, "vyher!")
             print("remiz: ", remiza, "remiza!")
-            time.sleep(2)
             break
