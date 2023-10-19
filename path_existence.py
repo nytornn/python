@@ -5,12 +5,11 @@ class Graph:
 
     def add_edge(self, u, v):
         self.adj_matrix[u][v] = 1
-        self.adj_matrix[v][u] = 1  # Pro neorientovaný graf
+        self.adj_matrix[v][u] = 1 
 
     def is_reachable(self, u, v):
         return self.adj_matrix[u][v] == 1
 
-# Příklad použití
 g = Graph(4)
 g.add_edge(0, 1)
 g.add_edge(1, 2)
